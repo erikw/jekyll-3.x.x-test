@@ -21,6 +21,7 @@ exclude:
 
 plugins:
   - jekyll-feed
+  - jekyll-git_metadata
 
 google_search_console:
   verification_file_code: 1234
