@@ -6,3 +6,8 @@ layout: home
 ---
 
 This is the content of the test site.
+
+
+<br>
+Deployed git commit: <code>{{ site.git.last_commit.short_sha }}</code>
+<br>

@@ -14,5 +14,6 @@ end
 
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.6'
+  gem 'jekyll-git_metadata', '~> 0.2'
   gem 'jekyll-google_search_console_verification_file', '~> 1.0'
 end
