@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/erikw/the-plain.git
+  revision: 0d3e0133a79002f8f54c4dd7291e330d5c7b9097
+  branch: fix-48
+  specs:
+    the-plain (4.0.0)
+      jekyll (~> 3.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -35,8 +43,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.7.1)
-      jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.1)
@@ -48,10 +54,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    minima (2.5.1)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
@@ -78,8 +80,8 @@ DEPENDENCIES
   jekyll-glossary_tooltip (~> 1.0)
   jekyll-google_search_console_verification_file (~> 1.0)
   kramdown-parser-gfm
-  minima (~> 2.0)
   rake (~> 13.0)
+  the-plain!
   webrick
 
 BUNDLED WITH

@@ -9,7 +9,9 @@ group :development do
 end
 
 group :jekyll_themes do
-  gem 'minima', '~> 2.0'
+  #gem 'minima', '~> 2.0'
+  gem 'the-plain'
+
 end
 
 group :jekyll_plugins do
